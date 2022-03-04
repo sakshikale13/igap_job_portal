@@ -40,3 +40,6 @@ app.get("/", function(req, res) {
 
 app.use("/authentication", require("./routes/authentication"));
 app.use("/companies",require("./routes/companies"));
+app.use("/joblist",require("./routes/joblist"));
+app.use("/apply",require("./routes/apply"));
+app.use("/candidates",require("./routes/candidates"));
