@@ -38,7 +38,9 @@ app.get("/", function(req, res) {
     res.send("hello")
 });
 
-app.use("/authentication", require("./routes/authentication"));
+
+
+app.use("/admin_authentication",require("./routes/admin_authentication"));
 app.use("/companies",require("./routes/companies"));
 app.use("/joblist",require("./routes/joblist"));
 app.use("/apply",require("./routes/apply"));
