@@ -16,7 +16,7 @@ router.post("/save", async (req, res) => {
     }
     candidates.name = body.data.name;
     candidates.email=body.data.email;
-    candidates.mobilenumber=body.data.mobilenumber;
+    candidates.mobileno=body.data.mobileno;
     candidates.city=body.data.city;
     candidates.gender=body.data.gender;
     candidates.address=body.data.address;
